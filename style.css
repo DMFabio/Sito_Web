@@ -1,16 +1,30 @@
 .navbar {
   background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+}
+
+.navbar-link {
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  background-color: royalblue;
+  color: white;
 }
 
 .logo {
-  text-decoration: none;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
   width: fit-content;
-  padding: 0.2rem 1rem;
-  border-radius: 0.5rem;
   color: dodgerblue;
 }
 
