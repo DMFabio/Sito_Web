@@ -1,0 +1,29 @@
+.navbar {
+  background-color: yellow;
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  color: dodgerblue;
+}
+
+.logo:hover {
+  /* o rgba per opacità mantenendo colore di sfondo */
+  background-color: royalblue;
+  color: white;
+}
+
+.logo-img {
+  height: 2.5rem;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+}
